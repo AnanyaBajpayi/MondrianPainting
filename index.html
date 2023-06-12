@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container{
+      display: grid;
+      width:748px;
+      height: 748px;
+      background-color:  #000;
+      grid-template-rows: 414px 130px 155px 22px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-gap:9px;
+    }
+    .first{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      background-color: #E72F24;
+    }
+    .second{
+      grid-column: 2/5;
+      grid-row: 1/2;
+      background-color:#F0F1EC;
+    }
+    .third{
+      grid-column: 1/2;
+      grid-row: 2/4;
+      background-color:#F0F1EC;
+    }
+    .fourth{
+      grid-column: 2/4;
+      grid-row: 2/4;
+      background-color:#F0F1EC;
+    }
+    .fifth{
+      grid-column: 4/5;
+      grid-row: 2/3;
+      background-color:#004592 ;
+      border-bottom: solid 10px;
+    }
+    .sixth{
+      grid-column: 1/2;
+      grid-row: 4/5;
+      background-color:#F0F1EC;
+    }
+    .seventh{
+      grid-row: 4/5;
+      grid-column: 2/3;
+      background-color: #F9D01E;
+    }
+    .eighth{
+      grid-row: 4/5;
+      grid-column: 3/4;
+      background-color: #232629;
+    }
+    .ninth{
+      grid-row:3/5;
+      grid-column: 4/5;
+      background-color:#F0F1EC;
+    }
+  </style>
+</head>
+
+<body>
+ 
+  <div class="container">
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+    <div class="fourth"></div>
+    <div class="fifth"></div>
+    <div class="sixth"></div>
+    <div class="seventh"></div>
+    <div class="eighth"></div>
+    <div class="ninth"></div>
+  </div>
+</body>
+
+</html>
